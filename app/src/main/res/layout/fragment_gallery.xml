@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+
+    tools:context=".ui.HomeFragment">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="259dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/refer_friends_and_earn"
+            android:textColor="@color/color3"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="259dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="@string/ask_your_friends_to_signup_with_your_referal_code_make_an_initial_payment"
+            android:textColor="@color/color3"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="259dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="180dp"
+            android:gravity="center"
+            android:text="@string/use_this_referal_code"
+            android:textColor="@color/color3"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="259dp"
+            android:layout_height="59dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/referalback"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/color3"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-1dp"
+        android:background="#C1C0BD"
+        android:text="Invite Friends"
+        android:textAllCaps="false"
+        android:textColor="@color/color3"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

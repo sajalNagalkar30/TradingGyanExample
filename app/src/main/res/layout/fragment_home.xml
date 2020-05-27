@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#FFF"
+
+    android:orientation="vertical"
+    tools:context=".ui.HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:orientation="vertical" >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/premsinha"
+                app:civ_border_width="2dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="259dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="About Us"
+                android:textColor="@color/color3"
+                android:textSize="32sp"
+               />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:layout_marginTop="15dp"
+                android:text="Mr. Prem Sinha is the founder of Trading Gyan . He is a passionate trader since 2003, experienced many cycles and seasons in stock market. After trading many years in equity and futures, now concentrated on Option trading with professional approach. Expertise in Price action, Greek based Option trading, Adjustment of a losing trade, Implied volatility-based trading, etc. Candle sticks (Advance) - How candles tells a story and guide for next price movement.
+       "
+                android:fontFamily="arial"
+                android:textColor="@color/color3"
+                android:textSize="20sp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

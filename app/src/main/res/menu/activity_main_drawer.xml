@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_trading"
+            android:title="@string/menu_trading" />
+        <item
+            android:id="@+id/nav_knowledge"
+            android:title="@string/knowledge_center" />
+
+
+        <item
+            android:id="@+id/nav_notification"
+            android:title="@string/notification_center" />
+
+
+
+        <item
+            android:id="@+id/nav_myprofile"
+            android:title="@string/my_profile" />
+
+
+
+        <item
+            android:id="@+id/nav_contact"
+            android:title="@string/menu_contact" />
+
+
+        <item
+            android:id="@+id/nav_raiseaticket"
+            android:title="@string/menu_raiseaticket"
+            />
+
+
+        <item
+            android:id="@+id/nav_disclaimer"
+            android:title="@string/disclaimer" />
+
+
+        <item
+            android:id="@+id/nav_community"
+            android:title="@string/community" />
+
+
+        <item
+            android:id="@+id/nav_logout"
+            android:title="@string/logout" />
+
+
+
+
+    </group>
+</menu>
